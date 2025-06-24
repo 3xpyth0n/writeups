@@ -8,11 +8,12 @@ Chaque dossier correspond à une room spécifique et contient un rapport complet
 ## Structure du dépôt
 
 - `linuxprivesc/` : write-up de la room Linux Privilege Escalation  
-- `moebius/` : write-up de la room Moebius  
+- `moebius/` : write-up de la room Moebius
+- `overpass/` : write-up de la room Overpass
+- `rootme/` : write-up de la room Rootme
 
 ---
 
 ## Objectif
 
-L’objectif de ce dépôt est de documenter méthodiquement les techniques de pentesting et les processus d’exploitation rencontrés lors des exercices TryHackMe, dans une optique d’apprentissage continu et de consolidation des compétences en cybersécurité.
-
+L’objectif de ce dépôt est de documenter méthodiquement les techniques de pentesting et les processus d’exploitation rencontrés lors des exercices TryHackMe, dans une optique d’apprentissage continu et de consolidation de mes compétences en cybersécurité.
