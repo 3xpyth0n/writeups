@@ -1,4 +1,25 @@
-title: "TryHackMe Write-ups by Saad Idrissi"
-description: "Technical walkthroughs and notes from my TryHackMe challenges."
-theme: jekyll-theme-cayman
-markdown: kramdown
+title: "Saad's TryHackMe Write-ups"
+description: "Technical write-ups and cybersecurity notes."
+baseurl: "/writeups"   # si tu veux que ce soit sur https://s2adr.github.io/writeups/
+url: "https://s2adr.github.io"
+
+theme: null  # on utilise le thème via les fichiers locaux, pas via gem
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+
+collections:
+  writeups:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      layout: single
+
