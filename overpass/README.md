@@ -55,7 +55,7 @@ nmap -sV -T5 -O 10.10.139.53
 
 Le port 80 héberge l’application web **Overpass**, un gestionnaire de mots de passe.
 
-Avec un outil de fuzzing tel que **Gobuster**, plusieurs chemins intéressants sont découverts, notamment ` /admin` et `/downloads`.
+Avec un outil de fuzzing tel que **Gobuster**, plusieurs chemins intéressants sont découverts, notamment `/admin` et `/downloads`.
 
 Une inspection du JavaScript côté client (`login.js`) révèle une logique d’authentification vulnérable.
 
@@ -160,7 +160,7 @@ Cette room démontre comment des failles simples, combinées, permettent de comp
 - d’une supervision active des systèmes.
 
 > **TLDR**\
-> Un simple contournement d’authentification a ouvert la voie à l’exfiltration d’une clé SSH, puis à l’escalade root via un cron job non sécurisé.
+> Un simple contournement d’authentification a ouvert la voie à l’exfiltration d’une clé SSH, puis à l’escalade root via un cron non sécurisé.
 
 ---
 

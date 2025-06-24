@@ -33,7 +33,7 @@
 | Élément                   | Version / Commande                                           | Remarque                                                   |
 | ------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
 | Distribution attaquante   | Kali Linux 2024.x                                            | Mettre à jour : `sudo apt update && sudo apt full-upgrade` |
-| Adresse IP de l’attaquant | **10.21.208.96** (exemple)                                   | Adapter dans tous les reverse‑shells                       |
+| Adresse IP de l’attaquant | **10.21.208.96**                                             | Adapter dans tous les reverse‑shells                       |
 | Adresse IP de la cible    | **10.10.176.115**                                            | Variable `TARGET` utilisée dans plusieurs extraits         |
 | Outils requis             | `nmap`, `sqlmap`, `ffuf`, `gcc`, `python3`, `curl`, `netcat` | Tous préinstallés sous Kali                                |
 
