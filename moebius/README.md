@@ -4,30 +4,6 @@
 
 ---
 
-## Sommaire enrichi
-
-1. Pré‑requis et préparation de l’environnement
-2. Phase 1 : reconnaissance réseau complète
-   - 1.1 Scan exhaustif Nmap
-   - 1.2 Inspection manuelle du front‑end Web
-3. Phase 2 : découverte de l’injection SQL et élévation en LFI
-   - 2.1 Détection de caractères filtrés
-   - 2.2 Cartographie de la base (sqlmap)
-   - 2.3 Injection imbriquée ➜ inclusion de fichiers système
-4. Phase 3 : audit du code PHP et extraction de la clé HMAC
-   - 3.1 Lecture des sources avec `php://filter`
-   - 3.2 Génération de HMAC valides pour tout fichier
-5. Phase 4 : transformation de la LFI en RCE via chaînes de filtres PHP
-6. Phase 5 : contournement des fonctions désactivées avec `LD_PRELOAD`
-7. Phase 6 : compromission complète du conteneur Docker et de l’hôte
-   - 6.1 Passage root (sudo)
-   - 6.2 Évasion Docker par montage de /dev/nvme0n1p1
-8. Phase 7 : prise de contrôle de la base MariaDB et extraction du flag root
-9. Synthèse des risques et remédiations recommandées
-10. Annexe A : scripts Python & C fournis
-
----
-
 ## 1. Pré‑requis et préparation de l’environnement (détaillé)
 
 | Élément                   | Version / Commande                                           | Remarque                                                   |

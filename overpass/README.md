@@ -1,30 +1,8 @@
 # TryHackMe – Overpass
 
-> Write‑up par **Saad Idrissi**
-
----
-
-## Table des matières
-
-- [Présentation générale](#présentation-générale)
-- [Étape 1 : Reconnaissance](#étape-1--reconnaissance)
-  - [Scan réseau](#scan-réseau)
-  - [Analyse du site web](#analyse-du-site-web)
-- [Étape 2 : Accès initial via contournement d’authentification](#étape-2--accès-initial-via-contournement-dauthentification)
-  - [Vulnérabilité détectée](#vulnérabilité-détectée)
-  - [Extraction de la clé SSH](#extraction-de-la-clé-ssh)
-- [Étape 3 : Escalade de privilèges](#étape-3--escalade-de-privilèges)
-  - [Analyse des indices](#analyse-des-indices)
-  - [Exploitation](#exploitation)
-- [Résultat final](#résultat-final)
-- [Recommandations de sécurité](#recommandations-de-sécurité)
-- [Conclusion](#conclusion)
-
----
-
 ## Présentation générale
 
-La room **Overpass** est une machine de difficulté **Intermediate** sur [TryHackMe](https://tryhackme.com/room/overpass). Elle simule un gestionnaire de mots de passe développé par une équipe d’étudiants.\
+La room **Overpass** est une machine de difficulté **Medium** sur [TryHackMe](https://tryhackme.com/room/overpass). Elle simule un gestionnaire de mots de passe développé par une équipe d’étudiants.\
 L’objectif est d’identifier et d’exploiter les vulnérabilités pour obtenir dans l’ordre :
 
 1. un accès utilisateur (`user.txt`) ;

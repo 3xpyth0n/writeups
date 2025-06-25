@@ -1,29 +1,10 @@
 # TryHackMe – RootMe
 
-> Write‑up par **Saad Idrissi**
-
----
-
-## Table des matières
-
-- [Présentation générale](#présentation-générale)
-- [Étape 1 : Reconnaissance](#étape-1--reconnaissance)
-  - [Ciblage de la machine](#ciblage-de-la-machine)
-  - [Analyse Web](#analyse-web)
-- [Étape 2 : Accès initial via téléversement de fichier](#étape-2--accès-initial-via-téléversement-de-fichier)
-  - [Vulnérabilité identifiée](#vulnérabilité-identifiée)
-  - [Exécution du shell](#exécution-du-shell)
-- [Étape 3 : Escalade de privilèges](#étape-3--escalade-de-privilèges)
-  - [Recherche SUID](#recherche-suid)
-  - [Exploitation Python SUID](#exploitation-python-suid)
-- [Étape 4 : Persistance via SSH](#étape-4--persistance-via-ssh)
-- [Résultat final](#résultat-final)
-- [Recommandations de sécurité](#recommandations-de-sécurité)
-- [Conclusion](#conclusion)
-
 ---
 
 ## Présentation générale
+
+---
 
 La room **RootMe** est une machine d’initiation sur [TryHackMe](https://tryhackme.com/room/rootme) destinée à illustrer l’exploitation d’un formulaire d’upload vulnérable, suivie d’une élévation de privilèges simple. L’objectif est de récupérer :
 
