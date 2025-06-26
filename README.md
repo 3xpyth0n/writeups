@@ -12,6 +12,7 @@ Chaque dossier correspond à une room spécifique et contient un rapport complet
 - `overpass/` : write-up de la room Overpass
 - `rootme/` : write-up de la room Rootme
 - `ignite/` : write-up de la room Ignite
+- `billing/` : write-up de la room Billing
 ---
 
 ## Objectif

