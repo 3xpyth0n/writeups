@@ -1,7 +1,5 @@
 # TryHackMe – Overpass
 
-## Présentation générale
-
 La room **Overpass** est une machine de difficulté **Medium** sur [TryHackMe](https://tryhackme.com/room/overpass). Elle simule un gestionnaire de mots de passe développé par une équipe d’étudiants.\
 L’objectif est d’identifier et d’exploiter les vulnérabilités pour obtenir dans l’ordre :
 

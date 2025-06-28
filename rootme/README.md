@@ -1,8 +1,6 @@
 # TryHackMe – RootMe
 
 
-## Présentation générale
-
 La room **RootMe** est une machine d’initiation sur [TryHackMe](https://tryhackme.com/room/rootme) destinée à illustrer l’exploitation d’un formulaire d’upload vulnérable, suivie d’une élévation de privilèges simple. L’objectif est de récupérer :
 
 1. le flag utilisateur (`user.txt`) ;
