@@ -91,7 +91,7 @@ Sur un article nommé « IT Blog », l’auteur d'un poème est listé comm
 
 ### 6.2 Format d’e‑mail
 
-Un autre billet signé *Jane Doe* mentionne `JD@anthem.com`.  
+Un autre article signé *Jane Doe* mentionne `JD@anthem.com`.  
 Je généralise : initiales + `@anthem.com` ⇒ **SG@anthem.com** pour Solomon Grundy.
 
 ---
