@@ -1,4 +1,4 @@
-# Room **Moebius** (THM)
+# TryHackMe - Moebius
 
 > **Objectif** : Le but est d'exploiter une vulnérabilité d'injection SQL pour obtenir une inclusion de fichier local (LFI), puis de la transformer en exécution de code à l'aide d'une chaîne de filtres PHP. Nous avons ensuite contourné les fonctions désactivées pour obtenir une exécution de code à distance (RCE), ce qui nous a permis d'accéder à un shell dans un conteneur Docker. En échappant au conteneur via le montage du système de fichiers de l'hôte, nous avons capturé le flag user. Enfin, nous avons trouvé le root flag dans la base de données SQL et complété la room.
 

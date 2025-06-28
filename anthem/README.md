@@ -1,7 +1,7 @@
 # TryHackMe – Anthem
 
-> **Objectif :** récolter les 4 flags Web puis accéder à la machine via RDP pour obtenir les flags *user* et *root*.  
-> **IP cible :** `10.10.80.126`
+**Objectif :** récolter les 4 flags Web puis accéder à la machine via RDP pour obtenir les flags *user* et *root*.  
+**IP cible :** `10.10.80.126`
 
 ---
 
