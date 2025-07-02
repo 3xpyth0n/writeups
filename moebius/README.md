@@ -283,3 +283,6 @@ select * from secrets;  -- ➜ flag root
 
 *Tous les scripts sont éprouvés sous Python 3.11 / GCC 13.*
 
+---
+
+**Auteur :** Saad Idrissi
