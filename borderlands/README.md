@@ -110,8 +110,8 @@ sudo nmap -p- -sS -sV -A <IP-CIBLE>
 
 | Protocole | Commande                               | Flag                 |
 | --------- | -------------------------------------- | -------------------- |
-| UDP       | `tcpdump -i eth0 -A | grep FLAG:TCP`   | `{FLAG:UDP:3b***3c}` |
-| TCP       | `tcpdump -i eth0 -A | grep FLAG:TCP`   | `{FLAG:TCP:8f***3e}` |
+| UDP       | '`tcpdump -i eth0 -A | grep FLAG:TCP`' | `{FLAG:UDP:3b***3c}` |
+| TCP       | '`tcpdump -i eth0 -A | grep FLAG:TCP`' | `{FLAG:TCP:8f***3e}` |
 
 ---
 
