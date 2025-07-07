@@ -1,7 +1,6 @@
 # TryHackMe – Tomghost 
 
 > **Objectif :** démontrer pas à pas l’exploitation de la vulnérabilité **Ghostcat** (CVE-2020-1938) sur Apache Tomcat, puis élever les privilèges jusqu’au root en déchiffrant une archive PGP et en abusant d’un binaire SUID.  
-> **Notre IP cible** : `10.10.197.181`
 
 ---
 

@@ -329,3 +329,6 @@ Cette room "Linux Privilege Escalation" m'a permis de consolider mes connaissanc
 
 Ce guide structuré reste un support idéal pour mes futurs pentests ou CTF, tout en soulignant l'importance des contrôles de sécurité (AppArmor, SELinux, configurations NFS, permissions).
 
+---
+
+**Auteur :** Saad Idrissi
