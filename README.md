@@ -16,6 +16,8 @@ Chaque dossier renvoie au rapport complet correspondant.
 - [anthem/](https://tryhackme.com/room/anthem) : write-up de la room **Anthem**  
 - [tomghost/](https://tryhackme.com/room/tomghost) : write-up de la room **Tom Ghost**  
 - [nahamstore/](https://tryhackme.com/room/nahamstore) : write-up de la room **NahamStore**  
+- [borderlands/](https://tryhackme.com/room/borderlands) : write-up de la room **Borderlands**  
+
 ---
 
 ## Objectif
