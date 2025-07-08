@@ -24,7 +24,7 @@ Chaque dossier renvoie au rapport complet correspondant.
 
 - **04_systemes/**  
   - [Billing](https://tryhackme.com/room/billing) : CVE Linux initial + privesc
-  - [LinPrivilegeEscalation](https://tryhackme.com/room/linprivesc) : atelier privesc Debian
+  - [Linprivesc](https://tryhackme.com/room/linprivesc) : atelier privesc Debian
 
 ---
 
