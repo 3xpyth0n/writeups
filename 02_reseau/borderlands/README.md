@@ -1,6 +1,6 @@
 ## TryHackMe – Borderlands
 
-> **Objectif :** montrer pas à pas la méthodologie d’attaque – de la compromission du périmètre jusqu’au pivot réseau – tout en conservant un style clair, synthétique et professionnel.
+> **Objectif :** montrer pas à pas la méthodologie d’attaque – de la compromission du périmètre jusqu’au pivot réseau.
 
 ---
 
