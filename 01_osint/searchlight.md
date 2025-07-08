@@ -12,6 +12,8 @@ Le challenge **Searchlight — IMINT** (créé par zewen) se concentre sur l’
 
 ## Défi 1 : Rue mystère
 
+![Tache 1](https://miro.medium.com/v2/resize:fit:828/format:webp/1*Raw4nTPFZpiveB1oFmbrgA.png)
+
 **Enoncé :** À partir de la photo fournie, identifiez la rue.
 
 **Étape 1 : Observation**
@@ -36,6 +38,8 @@ Le challenge **Searchlight — IMINT** (créé par zewen) se concentre sur l’
 
 ## Défi 2 : Station de métro à Londres
 
+![Tache 2](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*u-Q4nJbUy4RIZ6iXONplhg.png)
+
 **Enoncé :** Répondez aux questions suivantes à partir de l’image de l’entrée de métro.
 
 1. Ville ?
@@ -55,6 +59,8 @@ Le challenge **Searchlight — IMINT** (créé par zewen) se concentre sur l’
 ---
 
 ## Défi 3 : Google Dorking et aéroport
+
+![Tache 3](https://miro.medium.com/v2/resize:fit:640/format:webp/1*DGt4lvd3DbQCLXLB-GiVVg.png)
 
 **Enoncé :** À partir d’un panneau publicitaire sur une image d’aéroport, identifiez le lieu exact.
 
@@ -82,6 +88,8 @@ Le challenge **Searchlight — IMINT** (créé par zewen) se concentre sur l’
 ---
 
 ## Défi 4 : Le coffee shop écossais
+
+![Tache 4](https://miro.medium.com/v2/resize:fit:828/format:webp/1*HAydeXPIfQuI2H-1gfvkVQ.png)
 
 Pour ce défi, les explications suivent un déroulé finement détaillé, avec captures mentales claires, pour ne rien laisser à l’interprétation.
 
@@ -124,6 +132,8 @@ Pour ce défi, les explications suivent un déroulé finement détaillé, avec c
 
 ## Défi 5 : Recherche inversée et Katz’s Deli
 
+![Tache 5](https://miro.medium.com/v2/resize:fit:640/format:webp/0*4ziR7ppv_TYqcX1a.jpg)
+
 **Étapes détaillées :**
 
 1. **Téléchargement de l’image** : Ouvrez la fonction de recherche inversée d’image de votre navigateur (clic droit → "Rechercher l’image avec Google").
@@ -138,6 +148,8 @@ Pour ce défi, les explications suivent un déroulé finement détaillé, avec c
 ---
 
 ## Défi 6 : Statue de Renne à Oslo
+
+![Tache 6](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*-J-juYpwRNsWrPcV2UpVLA.png)
 
 **Enoncé :** Identifier le nom de la statue et son photographe.
 
@@ -159,6 +171,8 @@ Pour ce défi, les explications suivent un déroulé finement détaillé, avec c
 
 ## Défi 7 : Lady Justice et le Courthouse
 
+![Tache 7](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*FurfYAjQYL_ASNZYuR_PgQ.png)
+
 **Enoncé :** Déterminez le personnage, le lieu et le bâtiment opposé.
 
 1. **Analyse visuelle** : Statue d’une femme aveuglée, tenant une balance et une épée → iconographie de **Lady Justice**.
@@ -175,6 +189,8 @@ Pour ce défi, les explications suivent un déroulé finement détaillé, avec c
 ---
 
 ## Défi 8 : Analyse vidéo à Singapour
+
+![Tache 8](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qYeaWk0Xz8heC_mYAPkD2Q.png)
 
 **Enoncé :** Identifier l’hôtel où séjourne l’ami.
 
