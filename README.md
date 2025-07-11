@@ -25,6 +25,7 @@ Chaque dossier renvoie au rapport complet correspondant.
 - **04_systemes/**  
   - [Billing](https://tryhackme.com/room/billing) : CVE Linux initial + privesc
   - [Linprivesc](https://tryhackme.com/room/linprivesc) : atelier privesc Debian
+  - [Binex](https://tryhackme.com/room/binex) : Bruteforce SSH + privesc (via Buffer Overflow) 
 
 ---
 

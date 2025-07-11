@@ -18,13 +18,11 @@ Le challenge **Searchlight — IMINT** (créé par zewen) se concentre sur l’
 
 **Étape 1 : Observation**
 
-- Zoomez virtuellement sur le panneau d’accueil.
-- Repérez les éléments de texte, la typographie et les couleurs qui pourraient indiquer un nom.
+- Zoom sur le panneau d’accueil.
 
 **Étape 2 : Extraction de l’indice**
 
-- Le mot **Carnaby** ressort aisément.
-- La mention **Street**, placée juste en-dessous, confirme qu’il s’agit d’une rue célèbre.
+- Le mot **Carnaby Street** ressort très clairement.
 
 **Étape 3 : Validation rapide**
 
@@ -191,6 +189,7 @@ Pour ce défi, les explications suivent un déroulé finement détaillé, avec c
 ## Défi 8 : Analyse vidéo à Singapour
 
 ![Tache 8](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qYeaWk0Xz8heC_mYAPkD2Q.png)
+> Riverside Point à Singapour (capturé depuis la vidéo).
 
 **Enoncé :** Identifier l’hôtel où séjourne l’ami.
 
