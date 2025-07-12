@@ -92,7 +92,7 @@
 1. **Génération du pattern** :
 
    ```bash
-   pattern_create.rb -l 2000 > pattern.txt
+   pattern_create.rb -l 2000 > pattern.txt # (J'ai suivi l'indice donné au début de la Task 3)
    ```
 
    Transfert :
