@@ -10,6 +10,7 @@ Chaque dossier renvoie au rapport complet correspondant.
 - **01_osint/**  
   - [Searchlight](https://tryhackme.com/room/searchlight) : analyse d’images et géolocalisation
   - [OhSINT](https://tryhackme.com/room/ohsint) : Métadonnées, réseaux sociaux, Wi-Fi
+  - [Sakura](https://tryhackme.com/room/sakura) : OSINT – identité, crypto, géoloc
 
 - **02_reseau/**  
   - [Borderlands](https://tryhackme.com/room/borderlands) : pivot réseau et protocoles (FTP, BGP, SSH)
